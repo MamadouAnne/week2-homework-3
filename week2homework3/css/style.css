@@ -1,0 +1,24 @@
+.container {
+  height: 100vh;
+  background-color: #eee;
+  margin: 0;
+  padding: 0;
+  background-image: url(../images/image1.png);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.item {
+  clip-path: ellipse();
+  shape-outside: ellipse();
+  float: left;
+  background-color: salmon;
+  width: 400px;
+  height: 300px;
+  margin: 0 10px 10px 0;
+}
+
+.item:hover {
+  opacity: 0;
+}
