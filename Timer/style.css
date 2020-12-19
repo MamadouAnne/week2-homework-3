@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+input {
+  font: 20px Verdana;
+}
+.timer {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  background-color: #0781d4;
+  text-align: center;
+  line-height: 190px;
+  font: 50px Verdana;
+  line-height: 190px; /* This sets the text to display in the middle of the circle*/
+  /* display: inline-block; */
+}
+.timeIsUp {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  text-align: center;
+  line-height: 190px;
+  font: 50px Verdana;
+  line-height: 190px;
+  background-color: red;
+}
